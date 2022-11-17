@@ -145,7 +145,7 @@ def main():
     cities = [(random.randint(1, 5000), random.randint(1, 5000))]  # bázis
     demand = [0]
     visited = [0]
-    drivers = 6
+    drivers = 10
     driver_capacities = []
     route = []
     for i in range(1, n + 1):
